@@ -7,13 +7,17 @@ const router = jsonServer.router('db.json')
 
 const PORT = process.env.PORT || 3000;
 
+var corsOptions = {
+    origin: '*'
+}
+
 // /!\ Bind the router db to the app
 app.db = router.db
 
 // You must apply the auth middleware before the router
 app.use(auth)
 app.use(router)
-app.use(cors())
+app.use(cors(corsOptions))
 app.listen(PORT, () => {
     console.log('JSON Server is running');
 })
