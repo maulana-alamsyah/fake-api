@@ -13,7 +13,7 @@ app.db = router.db
 app.use(auth)
 app.use(router)
 app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+    res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "*");
     next();
 });
