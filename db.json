@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "admin@google.com",
+      "password": "$2a$10$kukrDX/lpyFn/7.BYlF0z.cRWPVCO/s0PG8KPETp5a08Y7h3BE5Wy",
+      "id": 1
+    }
+  ],
+  "guests": [
+    {
+      "name": "testguest",
+      "address": "Tegal",
+      "id": 1
+    }
+  ]
+}
