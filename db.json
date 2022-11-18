@@ -4,6 +4,11 @@
       "email": "admin@google.com",
       "password": "$2a$10$kukrDX/lpyFn/7.BYlF0z.cRWPVCO/s0PG8KPETp5a08Y7h3BE5Wy",
       "id": 1
+    },
+    {
+      "email": "destynurulanitsa24@gmail.com",
+      "password": "$2a$10$J0sQ/a5E6O88ejgR2dBK5.RCOgAGcYYazXYO4l.95yPOKJ.YGjHR2",
+      "id": 2
     }
   ],
   "guests": [
